@@ -1,0 +1,120 @@
+/* ─── Global Animation Utilities ────────────────────────────────────────────── */
+
+/* Smooth scroll globally */
+html {
+  scroll-behavior: smooth;
+}
+
+/* GPU-friendly defaults for animated elements */
+.animate-gpu {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* ── Shimmer loading skeleton ───────────────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e4e4e4 50%,
+    #f0f0f0 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+  border-radius: 8px;
+}
+
+/* ── Ripple effect (on tap/click) ───────────────────────────────────────────── */
+@keyframes ripple {
+  to { transform: scale(4); opacity: 0; }
+}
+.ripple-container {
+  position: relative;
+  overflow: hidden;
+}
+.ripple-container::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(34,57,96,0.12);
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+  top: var(--y, 50%);
+  left: var(--x, 50%);
+  transform: scale(0);
+  opacity: 1;
+  animation: ripple 0.5s linear;
+  pointer-events: none;
+}
+
+/* ── Focus ring animation ───────────────────────────────────────────────────── */
+@keyframes focus-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(14,165,233,0.35); }
+  50%       { box-shadow: 0 0 0 4px rgba(14,165,233,0.2); }
+}
+.animated-focus:focus-visible {
+  outline: none;
+  animation: focus-pulse 1.4s ease-in-out infinite;
+}
+
+/* ── Input focus glow ───────────────────────────────────────────────────────── */
+input:focus, textarea:focus, select:focus {
+  transition: box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+/* ── Validation shake ───────────────────────────────────────────────────────── */
+@keyframes input-shake {
+  0%, 100% { transform: translateX(0); }
+  20%      { transform: translateX(-6px); }
+  40%      { transform: translateX(6px); }
+  60%      { transform: translateX(-4px); }
+  80%      { transform: translateX(4px); }
+}
+.input-error {
+  animation: input-shake 0.42s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/* ── Success pulse ──────────────────────────────────────────────────────────── */
+@keyframes success-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(0,196,121,0.45); }
+  70%  { box-shadow: 0 0 0 10px rgba(0,196,121,0); }
+  100% { box-shadow: 0 0 0 0 rgba(0,196,121,0); }
+}
+.success-ring {
+  animation: success-pulse 0.7s ease-out;
+}
+
+/* ── Smooth scrollbar ───────────────────────────────────────────────────────── */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(34,57,96,0.15) transparent;
+}
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(34,57,96,0.15);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(34,57,96,0.28);
+}
+
+/* ── Reduced motion ─────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

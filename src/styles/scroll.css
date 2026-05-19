@@ -1,0 +1,151 @@
+/* ─── Hidden Scrollbar System ─────────────────────────────────────────────────
+ * Keeps scrolling fully functional while hiding the scrollbar visually.
+ * Apply .scroll-hidden to any overflow container.
+ * ─────────────────────────────────────────────────────────────────────────── */
+
+/* Universal hidden-scroll class */
+.scroll-hidden {
+  -ms-overflow-style: none;   /* IE / Edge */
+  scrollbar-width: none;      /* Firefox */
+}
+.scroll-hidden::-webkit-scrollbar {
+  display: none;              /* Chrome / Safari / Opera */
+}
+
+/* Momentum scrolling on iOS */
+.scroll-touch {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* ─── Page Container ──────────────────────────────────────────────────────────
+ * Full-height page with internal scroll — used as root wrapper per page.
+ * Accounts for the 64px BottomNav via padding-bottom.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  /* dvh for mobile keyboard-safe height; falls back to 100vh */
+  height: 100dvh;
+  height: 100vh; /* fallback */
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+}
+
+/* ─── Scroll Area ────────────────────────────────────────────────────────────
+ * The scrollable body inside a page-container (below sticky header).
+ * pb-safe = 64px BottomNav + 12px breathing room + env safe-area.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.scroll-area {
+  flex: 1 1 0%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* bottom padding: nav height + safe area */
+  padding-bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+}
+.scroll-area::-webkit-scrollbar {
+  display: none;
+}
+
+/* ─── Sticky Header ──────────────────────────────────────────────────────────
+ * Sticky top inside a page-container — never overlaps content because
+ * .scroll-area starts immediately below it (flex column layout).
+ * ─────────────────────────────────────────────────────────────────────────── */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  flex-shrink: 0;
+}
+
+/* ─── Bottom Safe Area ───────────────────────────────────────────────────────
+ * Apply to fixed/absolute bottom bars that sit above the BottomNav.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.bottom-safe {
+  padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+}
+
+/* ─── Fixed Page Overlay ─────────────────────────────────────────────────────
+ * For full-screen slide-in sub-pages (ShopProfile, NewKhata, etc.)
+ * Internal scroll contained within, BottomNav excluded from scroll.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.overlay-page {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  overflow: hidden;
+}
+.overlay-page .overlay-scroll {
+  flex: 1 1 0%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+}
+.overlay-page .overlay-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* ─── Bottom Action Bar (inside overlay pages) ───────────────────────────────
+ * Sits fixed at bottom of overlay, above the BottomNav layer.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.overlay-actions {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  background: #fff;
+  border-top: 1px solid rgba(219, 219, 219, 0.72);
+  z-index: 10;
+}
+
+/* ─── Modal Backdrop ─────────────────────────────────────────────────────────
+ * Backdrop for bottom-sheet modals.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ─── Upload Sheet ───────────────────────────────────────────────────────────
+ * Bottom-sheet panel for upload modals.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.upload-sheet {
+  width: 100%;
+  background: #fff;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+
+/* ─── Khata Gradient Header ──────────────────────────────────────────────────
+ * The orange gradient header used in CustomerKhata.
+ * Content list sits below it via negative margin on .khata-list.
+ * ─────────────────────────────────────────────────────────────────────────── */
+.khata-header {
+  flex-shrink: 0;
+  background: linear-gradient(to right, #FF6900, #FFB078);
+  border-radius: 0 0 50px 50px;
+  padding-bottom: 5rem; /* space for the card that overlaps */
+}
+.khata-card-overlap {
+  /* negative top margin pulls list up so it overlaps the gradient tail */
+  margin-top: -4rem;
+}

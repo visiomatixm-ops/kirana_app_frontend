@@ -1,0 +1,673 @@
+/* Shop Profile */
+
+position: relative;
+width: 393px;
+height: 1007px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 15 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 191px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 16 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 235px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 17 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 279px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 18 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 323px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 367px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 20 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 411px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 21 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 455px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 22 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 34px;
+left: calc(50% - 341px/2);
+top: 499px;
+
+background: #FFFFFF;
+border: 1px solid #DBDBDB;
+border-radius: 12px;
+
+
+/* Rectangle 23 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 237px;
+left: calc(50% - 341px/2);
+top: 577px;
+
+background: #FFFFFF;
+border: 1px dashed #DBDBDB;
+border-radius: 12px;
+
+
+/* Shop Profile */
+
+position: absolute;
+width: 86px;
+height: 14px;
+left: calc(50% - 86px/2 - 75.5px);
+top: 40px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 20px;
+height: 19px;
+left: 52px;
+top: 40px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.01%;
+
+background: #223960;
+
+
+/* Arrow 12 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 27px;
+height: 0px;
+left: 13px;
+top: 50px;
+
+border: 2px solid #223960;
+transform: rotate(-180deg);
+
+
+/* Rohit Shinde Signature 1 */
+
+position: absolute;
+width: 154px;
+height: 53px;
+left: 120px;
+top: 669px;
+
+background: url(Rohit Shinde Signature);
+
+
+/* Business Name */
+
+position: absolute;
+width: 95px;
+height: 18px;
+left: calc(50% - 95px/2 - 97px);
+top: 199px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* GSTIN */
+
+position: absolute;
+width: 38px;
+height: 18px;
+left: calc(50% - 38px/2 - 125.5px);
+top: 243px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* Phone Number 1 */
+
+position: absolute;
+width: 98px;
+height: 18px;
+left: calc(50% - 98px/2 - 95.5px);
+top: 287px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* Phone Number 2 (Optional) */
+
+position: absolute;
+width: 158px;
+height: 18px;
+left: calc(50% - 158px/2 - 65.5px);
+top: 331px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* Email ID */
+
+position: absolute;
+width: 48px;
+height: 18px;
+left: calc(50% - 48px/2 - 120.5px);
+top: 375px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* Business Address */
+
+position: absolute;
+width: 102px;
+height: 18px;
+left: calc(50% - 102px/2 - 93.5px);
+top: 419px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* Pincode */
+
+position: absolute;
+width: 48px;
+height: 18px;
+left: calc(50% - 48px/2 - 120.5px);
+top: 463px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* Business Description (Optional) */
+
+position: absolute;
+width: 179px;
+height: 18px;
+left: calc(50% - 179px/2 - 55px);
+top: 507px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #CAC7C7;
+
+
+
+/* Signature */
+
+position: absolute;
+width: 56px;
+height: 18px;
+left: calc(50% - 56px/2 - 142.5px);
+top: 546px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 120.82%;
+/* or 16px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 254 */
+
+position: absolute;
+width: 47px;
+height: 21px;
+left: 103px;
+top: 832px;
+
+
+
+/* Rectangle 87 */
+
+position: absolute;
+width: 47px;
+height: 21px;
+left: calc(50% - 47px/2 - 70px);
+top: 832px;
+
+background: #E7F7FF;
+border-radius: 3px;
+
+
+/* Save */
+
+position: absolute;
+width: 22px;
+height: 12px;
+left: 116px;
+top: 837px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #1FABEA;
+
+
+
+/* Rectangle 87 */
+
+position: absolute;
+width: 105.52px;
+height: 35.14px;
+left: calc(50% - 105.52px/2 - 117.74px);
+top: 958px;
+
+background: #E7F7FF;
+border-radius: 11px;
+
+
+/* Rectangle 88 */
+
+position: absolute;
+width: 105.52px;
+height: 35.14px;
+left: calc(50% - 105.52px/2 + 2.26px);
+top: 958px;
+
+background: #1C3458;
+border-radius: 11px;
+
+
+/* Chancel */
+
+position: absolute;
+width: 49.39px;
+height: 20.08px;
+left: 54px;
+top: 967px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #1FABEA;
+
+
+
+/* Save */
+
+position: absolute;
+width: 30px;
+height: 20px;
+left: 184px;
+top: 967px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #FFFFFF;
+
+
+
+/* Group 255 */
+
+position: absolute;
+width: 47px;
+height: 21px;
+left: 173px;
+top: 832px;
+
+
+
+/* Rectangle 80 */
+
+position: absolute;
+width: 47px;
+height: 21px;
+left: calc(50% - 47px/2);
+top: 832px;
+
+background: #E7F7FF;
+border-radius: 3px;
+
+
+/* Upload */
+
+position: absolute;
+width: 34px;
+height: 12px;
+left: 180px;
+top: 837px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #1FABEA;
+
+
+
+/* Group 256 */
+
+position: absolute;
+width: 47px;
+height: 21px;
+left: 243px;
+top: 832px;
+
+
+
+/* Rectangle 86 */
+
+position: absolute;
+width: 47px;
+height: 21px;
+left: calc(50% - 47px/2 + 70px);
+top: 832px;
+
+background: #E7F7FF;
+border-radius: 3px;
+
+
+/* Remove */
+
+position: absolute;
+width: 36px;
+height: 12px;
+left: 249px;
+top: 837px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #1FABEA;
+
+
+
+/* Line 52 */
+
+position: absolute;
+width: 393px;
+height: 0px;
+left: 0px;
+top: 66px;
+
+opacity: 0.72;
+border: 1px solid #DBDBDB;
+
+
+/* Line 53 */
+
+position: absolute;
+width: 393px;
+height: 0px;
+left: 0px;
+top: 951px;
+
+opacity: 0.72;
+border: 1px solid #DBDBDB;
+
+
+/* Profile 83% Completed */
+
+position: absolute;
+width: 103px;
+height: 14px;
+left: calc(50% - 103px/2 - 6px);
+top: 163px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* or 12px */
+text-align: center;
+
+color: #1C3458;
+
+
+
+/* Ellipse 21 */
+
+position: absolute;
+width: 68px;
+height: 68px;
+left: calc(50% - 68px/2 - 8px);
+top: 88px;
+
+background: url(Logo 4);
+
+
+/* Ellipse 22 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 73px;
+height: 72px;
+left: calc(50% - 73px/2 - 7.5px);
+top: 86px;
+
+border: 1px solid #1FABEA;
+
+
+/* Ellipse 23 */
+
+position: absolute;
+width: 18px;
+height: 19px;
+left: 204.5px;
+top: 86px;
+
+background: #FFFFFF;
+
+
+/* Vector */
+
+position: absolute;
+left: 53.05%;
+right: 44.66%;
+top: 9.04%;
+bottom: 90.07%;
+
+background: #1FABEA;
+
+
+/* Vector 1 */
+
+position: absolute;
+width: 49px;
+height: 50px;
+left: 134.5px;
+top: 80px;
+
+background: #FFFFFF;
