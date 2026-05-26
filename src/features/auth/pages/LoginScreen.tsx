@@ -23,28 +23,62 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
   });
 
   const handleSendOtp = () => {
-    const otp = Math.floor(100000 + Math.random() * 900000).toString();
-    setGeneratedOtp(otp);
-    console.log('Generated OTP (for testing):', otp);
-    setShowOtp(true);
+    // call backend to send OTP
+    (async () => {
+      try {
+        const payload: any = {};
+        if (method === 'phone') payload.phone = phone;
+        if (method === 'email') payload.email = email;
+
+        const res = await fetch('/api/auth/send-otp', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        const data = await res.json();
+        if (!res.ok) {
+          alert(data?.message || 'Failed to send OTP');
+          return;
+        }
+
+        setShowOtp(true);
+        setGeneratedOtp(''); // don't store OTP on client
+        alert(data?.data?.message || data?.message || 'OTP sent');
+      } catch (err) {
+        console.error(err);
+        alert('Failed to send OTP');
+      }
+    })();
   };
 
   const handleVerifyOtp = () => {
-    if (otp === generatedOtp) {
-      onLogin();
-    } else {
-      alert('Invalid OTP. Please try again.');
-    }
-  };
+    (async () => {
+      try {
+        const payload: any = { otp };
+        if (method === 'phone') payload.phone = phone;
+        if (method === 'email') payload.email = email;
 
-  const handleEmailLogin = () => {
-    const emailRegex = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
-    if (!emailRegex.test(email)) {
-      alert('Please enter a valid email address');
-      return;
-    }
-    // Direct login without OTP for email
-    onLogin();
+        const res = await fetch('/api/auth/verify-otp', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+
+        const data = await res.json();
+        if (!res.ok) {
+          alert(data?.message || 'OTP verification failed');
+          return;
+        }
+
+        // Received token and user - for now call onLogin()
+        // In a complete integration, pass token to auth context
+        onLogin();
+      } catch (err) {
+        console.error(err);
+        alert('OTP verification failed');
+      }
+    })();
   };
 
 
@@ -150,7 +184,7 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
                   <input
                     type="tel"
                     value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
+                    onChange={(e) => setPhone(e.target.value.replace(/\D/g, '').slice(0, 10))}
                     placeholder="Enter 10 digit number"
                     className="flex-1 bg-white border-2 border-border rounded-xl px-4 py-3 text-foreground focus:border-primary outline-none transition-colors"
                     maxLength={10}
@@ -170,15 +204,12 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
               </div>
             )}
 
-
-            {method === "email" && (
-              <button
-                onClick={handleEmailLogin}
-                className="w-full bg-secondary text-white py-3 rounded-xl mt-2 font-medium hover:bg-secondary/90 transition-colors"
-              >
-                Login with Email
-              </button>
-            )}
+            <button
+              onClick={handleSendOtp}
+              className="w-full bg-[#243F6B] text-white py-3 rounded-xl mt-2 font-medium hover:bg-[#1D3458] transition-colors"
+            >
+              Send OTP
+            </button>
           </div>
         ) : (
           <div className="space-y-6">
@@ -187,7 +218,7 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
               <input
                 type="text"
                 value={otp}
-                onChange={(e) => setOtp(e.target.value)}
+                onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 6))}
                 placeholder="Enter 6 digit OTP"
                 className="w-full bg-white border-2 border-border rounded-xl px-4 py-3 text-foreground text-center text-2xl tracking-widest focus:border-primary outline-none transition-colors"
                 maxLength={6}
@@ -196,7 +227,7 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
 
             <button
               onClick={handleVerifyOtp}
-              className="w-full bg-primary text-white py-4 rounded-xl font-medium hover:bg-primary/90 transition-colors"
+              className="w-full bg-[#243F6B] text-white py-4 rounded-xl font-medium hover:bg-[#1D3458] transition-colors"
             >
               Verify & Continue
             </button>
