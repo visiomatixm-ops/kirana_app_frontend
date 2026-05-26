@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion } from "motion/react";
 import { Store, Mail, Phone, ArrowLeft } from "lucide-react";
 import { useGoogleLogin } from "@react-oauth/google";
@@ -10,6 +10,7 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
   const [otp, setOtp] = useState("");
   const [generatedOtp, setGeneratedOtp] = useState("");
   const [showOtp, setShowOtp] = useState(false);
+  const otpInputRef = useRef<HTMLInputElement | null>(null);
 
   const loginWithGoogle = useGoogleLogin({
     prompt: 'select_account',
@@ -42,9 +43,9 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
           return;
         }
 
+        // show the OTP entry screen immediately (no blocking alert)
         setShowOtp(true);
         setGeneratedOtp(''); // don't store OTP on client
-        alert(data?.data?.message || data?.message || 'OTP sent');
       } catch (err) {
         console.error(err);
         alert('Failed to send OTP');
@@ -80,6 +81,12 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
       }
     })();
   };
+
+  useEffect(() => {
+    if (showOtp && otpInputRef.current) {
+      otpInputRef.current.focus();
+    }
+  }, [showOtp]);
 
 
 
@@ -217,6 +224,7 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
               <label className="block text-foreground mb-2">Enter OTP</label>
               <input
                 type="text"
+                ref={otpInputRef}
                 value={otp}
                 onChange={(e) => setOtp(e.target.value.replace(/\D/g, '').slice(0, 6))}
                 placeholder="Enter 6 digit OTP"
@@ -232,7 +240,7 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: () => void; 
               Verify & Continue
             </button>
 
-            <button className="w-full text-secondary text-sm">Resend OTP</button>
+              <button onClick={handleSendOtp} className="w-full text-[#0ea5e9] text-sm">Resend OTP</button>
           </div>
         )}
       </div>
