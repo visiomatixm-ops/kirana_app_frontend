@@ -1,0 +1,2032 @@
+/* Bill’s History */
+
+position: relative;
+width: 393px;
+height: 854px;
+
+background: #F1F1F1;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 341px;
+height: 45px;
+left: calc(50% - 341px/2);
+top: 96px;
+
+background: #FFFFFF;
+border-radius: 11px;
+
+
+/* Bill’s History */
+
+position: absolute;
+width: 179px;
+height: 38px;
+left: calc(50% - 179px/2 - 81px);
+top: 40px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+
+color: #223960;
+
+
+
+/* Search */
+
+position: absolute;
+width: 43px;
+height: 16px;
+left: calc(50% - 43px/2 - 97px);
+top: 110px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Today - Thursday, 23 April 2026 */
+
+position: absolute;
+width: 199px;
+height: 16px;
+left: calc(50% - 199px/2 - 71px);
+top: 161px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Sunday, 23 April 2026 */
+
+position: absolute;
+width: 138px;
+height: 16px;
+left: calc(50% - 138px/2 - 101.5px);
+top: 654px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 38px;
+top: 106px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #8A8080;
+
+
+/* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 408px;
+height: 197px;
+left: calc(50% - 408px/2 + 0.5px);
+top: -39px;
+
+border: 1px solid #EDEDED;
+
+
+/* Group 219 */
+
+position: absolute;
+width: 29.52px;
+height: 29.52px;
+left: 337px;
+top: 22px;
+
+
+
+/* Ellipse 20 */
+
+position: absolute;
+width: 29.52px;
+height: 29.52px;
+left: 337px;
+top: 22px;
+
+background: #FFFFFF;
+
+
+/* X */
+
+position: absolute;
+width: 18.28px;
+height: 22.49px;
+left: calc(50% - 18.28px/2 + 155.54px);
+top: 24.81px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 239 */
+
+position: absolute;
+width: 364px;
+height: 437px;
+left: 15px;
+top: 197px;
+
+
+
+/* Rectangle 23 */
+
+position: absolute;
+width: 364px;
+height: 437px;
+left: calc(50% - 364px/2 + 0.5px);
+top: 197px;
+
+background: #FFFFFF;
+border-radius: 11px;
+
+
+/* Group 238 */
+
+position: absolute;
+width: 345px;
+height: 415px;
+left: 25px;
+top: 208px;
+
+
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 308px;
+top: 208px;
+
+background: #223960;
+border-radius: 7px;
+
+
+/* Sharma Kirana Store */
+
+position: absolute;
+width: 159px;
+height: 18px;
+left: calc(50% - 159px/2 - 92px);
+top: 208px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Shop Logo */
+
+position: absolute;
+width: 42px;
+height: 40px;
+left: calc(50% - 42px/2 + 140.5px);
+top: 217px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Line 34 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 361px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 41 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 328px;
+
+border: 1px solid #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 43 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 296px;
+
+border: 1px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 35 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 394px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 36 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 427px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 37 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 465px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 38 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 501px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 39 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 534px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 42 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 566px;
+
+border: 1px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* 22 Apr 2026 01:26 pm */
+
+position: absolute;
+width: 119px;
+height: 12px;
+left: 25px;
+top: 248px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* GTS:22AAAAA0000A1Z5 */
+
+position: absolute;
+width: 115px;
+height: 12px;
+left: 25px;
+top: 231px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Bill No: #1001 */
+
+position: absolute;
+width: 63px;
+height: 12px;
+left: 25px;
+top: 265px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* ITEM */
+
+position: absolute;
+width: 25px;
+height: 12px;
+left: 25px;
+top: 308px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* QTY */
+
+position: absolute;
+width: 19px;
+height: 12px;
+left: 151px;
+top: 308px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* RATE */
+
+position: absolute;
+width: 25px;
+height: 12px;
+left: 242px;
+top: 308px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* TOTAL */
+
+position: absolute;
+width: 30px;
+height: 12px;
+left: 324px;
+top: 308px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* Balaji Chips */
+
+position: absolute;
+width: 81px;
+height: 18px;
+left: calc(50% - 81px/2 - 131px);
+top: 336px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹10.00 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: calc(50% - 45px/2 + 136px);
+top: 337px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* 2 packet */
+
+position: absolute;
+width: 57px;
+height: 17px;
+left: 157px;
+top: 336px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* ₹5 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 242px;
+top: 336px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Sunflower Oil */
+
+position: absolute;
+width: 89px;
+height: 17px;
+left: calc(50% - 89px/2 - 127px);
+top: 370px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* ₹1050.00 */
+
+position: absolute;
+width: 64px;
+height: 16px;
+left: calc(50% - 64px/2 + 126.5px);
+top: 371px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹350 */
+
+position: absolute;
+width: 35px;
+height: 17px;
+left: 242px;
+top: 369px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 3 liter */
+
+position: absolute;
+width: 39px;
+height: 17px;
+left: 157px;
+top: 369px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Tata Salt */
+
+position: absolute;
+width: 59px;
+height: 15px;
+left: calc(50% - 59px/2 - 142px);
+top: 403px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹25.00 */
+
+position: absolute;
+width: 49px;
+height: 16px;
+left: calc(50% - 49px/2 + 134px);
+top: 404px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹25 */
+
+position: absolute;
+width: 26px;
+height: 17px;
+left: 242px;
+top: 402px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 1 kg */
+
+position: absolute;
+width: 26px;
+height: 17px;
+left: 157px;
+top: 402px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Parle-G Biscuit */
+
+position: absolute;
+width: 98px;
+height: 20px;
+left: calc(50% - 98px/2 - 122.5px);
+top: 435px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹15.00 */
+
+position: absolute;
+width: 49px;
+height: 16px;
+left: calc(50% - 49px/2 + 134px);
+top: 439px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹5 */
+
+position: absolute;
+width: 17px;
+height: 20px;
+left: 242px;
+top: 438px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* 3 packet */
+
+position: absolute;
+width: 57px;
+height: 17px;
+left: 157px;
+top: 435px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Surf Excel */
+
+position: absolute;
+width: 71px;
+height: 19px;
+left: calc(50% - 71px/2 - 136px);
+top: 475px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹764.00 */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: calc(50% - 56px/2 + 130.5px);
+top: 475px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹382 */
+
+position: absolute;
+width: 34px;
+height: 17px;
+left: 242px;
+top: 476px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 2 packet */
+
+position: absolute;
+width: 57px;
+height: 17px;
+left: 157px;
+top: 473px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Mustard Oil */
+
+position: absolute;
+width: 78px;
+height: 18px;
+left: calc(50% - 78px/2 - 132.5px);
+top: 509px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹165.00 */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: calc(50% - 56px/2 + 130.5px);
+top: 509px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹165 */
+
+position: absolute;
+width: 32px;
+height: 17px;
+left: 242px;
+top: 509px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 1 liter */
+
+position: absolute;
+width: 37px;
+height: 17px;
+left: 157px;
+top: 509px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Maggi Noodles */
+
+position: absolute;
+width: 98px;
+height: 18px;
+left: calc(50% - 98px/2 - 122.5px);
+top: 544px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* TOTAL: ₹2048.00 */
+
+position: absolute;
+width: 112px;
+height: 18px;
+left: calc(50% - 112px/2 - 115.5px);
+top: 570px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* Thank you ! Please visit again. */
+
+position: absolute;
+width: 211px;
+height: 18px;
+left: calc(50% - 211px/2 - 66px);
+top: 605px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120.82%;
+/* or 18px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Signature */
+
+position: absolute;
+width: 47px;
+height: 12px;
+left: calc(50% - 47px/2 + 147px);
+top: 605px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* ₹19.00 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: calc(50% - 45px/2 + 136px);
+top: 544px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹19 */
+
+position: absolute;
+width: 24px;
+height: 17px;
+left: 242px;
+top: 544px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #223960;
+
+
+
+/* 1 packet */
+
+position: absolute;
+width: 55px;
+height: 17px;
+left: 157px;
+top: 542px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Rohit Shinde Signature 1 */
+
+position: absolute;
+width: 66px;
+height: 23px;
+left: 304px;
+top: 576px;
+
+background: url(Rohit Shinde Signature);
+
+
+/* Group 240 */
+
+position: absolute;
+width: 364px;
+height: 437px;
+left: 15px;
+top: 690px;
+
+
+
+/* Rectangle 23 */
+
+position: absolute;
+width: 364px;
+height: 437px;
+left: calc(50% - 364px/2 + 0.5px);
+top: 690px;
+
+background: #FFFFFF;
+border-radius: 11px;
+
+
+/* Group 238 */
+
+position: absolute;
+width: 345px;
+height: 415px;
+left: 25px;
+top: 701px;
+
+
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 308px;
+top: 701px;
+
+background: #223960;
+border-radius: 7px;
+
+
+/* Sharma Kirana Store */
+
+position: absolute;
+width: 159px;
+height: 18px;
+left: calc(50% - 159px/2 - 92px);
+top: 701px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Shop Logo */
+
+position: absolute;
+width: 42px;
+height: 40px;
+left: calc(50% - 42px/2 + 140.5px);
+top: 710px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Line 34 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 854px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 41 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 821px;
+
+border: 1px solid #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 43 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 789px;
+
+border: 1px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 35 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 887px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 36 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 920px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 37 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 958px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 38 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 994px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 39 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 1027px;
+
+opacity: 0.4;
+border: 0.5px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 42 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 25px;
+top: 1059px;
+
+border: 1px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* 22 Apr 2026 01:26 pm */
+
+position: absolute;
+width: 119px;
+height: 12px;
+left: 25px;
+top: 741px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* GTS:22AAAAA0000A1Z5 */
+
+position: absolute;
+width: 115px;
+height: 12px;
+left: 25px;
+top: 724px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Bill No: #1001 */
+
+position: absolute;
+width: 63px;
+height: 12px;
+left: 25px;
+top: 758px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* ITEM */
+
+position: absolute;
+width: 25px;
+height: 12px;
+left: 25px;
+top: 801px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* QTY */
+
+position: absolute;
+width: 19px;
+height: 12px;
+left: 151px;
+top: 801px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* RATE */
+
+position: absolute;
+width: 25px;
+height: 12px;
+left: 242px;
+top: 801px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* TOTAL */
+
+position: absolute;
+width: 30px;
+height: 12px;
+left: 324px;
+top: 801px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* Balaji Chips */
+
+position: absolute;
+width: 81px;
+height: 18px;
+left: calc(50% - 81px/2 - 131px);
+top: 829px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹10.00 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: calc(50% - 45px/2 + 136px);
+top: 830px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* 2 packet */
+
+position: absolute;
+width: 57px;
+height: 17px;
+left: 157px;
+top: 829px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* ₹5 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 242px;
+top: 829px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Sunflower Oil */
+
+position: absolute;
+width: 89px;
+height: 17px;
+left: calc(50% - 89px/2 - 127px);
+top: 863px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* ₹1050.00 */
+
+position: absolute;
+width: 64px;
+height: 16px;
+left: calc(50% - 64px/2 + 126.5px);
+top: 864px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹350 */
+
+position: absolute;
+width: 35px;
+height: 17px;
+left: 242px;
+top: 862px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 3 liter */
+
+position: absolute;
+width: 39px;
+height: 17px;
+left: 157px;
+top: 862px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Tata Salt */
+
+position: absolute;
+width: 59px;
+height: 15px;
+left: calc(50% - 59px/2 - 142px);
+top: 896px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹25.00 */
+
+position: absolute;
+width: 49px;
+height: 16px;
+left: calc(50% - 49px/2 + 134px);
+top: 897px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹25 */
+
+position: absolute;
+width: 26px;
+height: 17px;
+left: 242px;
+top: 895px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 1 kg */
+
+position: absolute;
+width: 26px;
+height: 17px;
+left: 157px;
+top: 895px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Parle-G Biscuit */
+
+position: absolute;
+width: 98px;
+height: 20px;
+left: calc(50% - 98px/2 - 122.5px);
+top: 928px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹15.00 */
+
+position: absolute;
+width: 49px;
+height: 16px;
+left: calc(50% - 49px/2 + 134px);
+top: 932px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹5 */
+
+position: absolute;
+width: 17px;
+height: 20px;
+left: 242px;
+top: 931px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* 3 packet */
+
+position: absolute;
+width: 57px;
+height: 17px;
+left: 157px;
+top: 928px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Surf Excel */
+
+position: absolute;
+width: 71px;
+height: 19px;
+left: calc(50% - 71px/2 - 136px);
+top: 968px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹764.00 */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: calc(50% - 56px/2 + 130.5px);
+top: 968px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹382 */
+
+position: absolute;
+width: 34px;
+height: 17px;
+left: 242px;
+top: 969px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 2 packet */
+
+position: absolute;
+width: 57px;
+height: 17px;
+left: 157px;
+top: 966px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Mustard Oil */
+
+position: absolute;
+width: 78px;
+height: 18px;
+left: calc(50% - 78px/2 - 132.5px);
+top: 1002px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹165.00 */
+
+position: absolute;
+width: 56px;
+height: 16px;
+left: calc(50% - 56px/2 + 130.5px);
+top: 1002px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹165 */
+
+position: absolute;
+width: 32px;
+height: 17px;
+left: 242px;
+top: 1002px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* 1 liter */
+
+position: absolute;
+width: 37px;
+height: 17px;
+left: 157px;
+top: 1002px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Maggi Noodles */
+
+position: absolute;
+width: 98px;
+height: 18px;
+left: calc(50% - 98px/2 - 122.5px);
+top: 1037px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* TOTAL: ₹2048.00 */
+
+position: absolute;
+width: 112px;
+height: 18px;
+left: calc(50% - 112px/2 - 115.5px);
+top: 1063px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* Thank you ! Please visit again. */
+
+position: absolute;
+width: 211px;
+height: 18px;
+left: calc(50% - 211px/2 - 66px);
+top: 1098px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120.82%;
+/* or 18px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Signature */
+
+position: absolute;
+width: 47px;
+height: 12px;
+left: calc(50% - 47px/2 + 147px);
+top: 1098px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* ₹19.00 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: calc(50% - 45px/2 + 136px);
+top: 1037px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+
+color: #223960;
+
+
+
+/* ₹19 */
+
+position: absolute;
+width: 24px;
+height: 17px;
+left: 242px;
+top: 1037px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+color: #223960;
+
+
+
+/* 1 packet */
+
+position: absolute;
+width: 55px;
+height: 17px;
+left: 157px;
+top: 1035px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* Rohit Shinde Signature 1 */
+
+position: absolute;
+width: 66px;
+height: 23px;
+left: 304px;
+top: 1069px;
+
+background: url(Rohit Shinde Signature);

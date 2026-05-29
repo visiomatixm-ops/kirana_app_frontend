@@ -1,0 +1,3626 @@
+/* Inventory Page */
+
+position: relative;
+width: 393px;
+height: 1487px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 341px;
+height: 45px;
+left: calc(50% - 341px/2);
+top: 109px;
+
+background: #D9D9D9;
+opacity: 0.24;
+border-radius: 11px;
+
+
+/* Inventory */
+
+position: absolute;
+width: 138px;
+height: 38px;
+left: calc(50% - 138px/2 - 101.5px);
+top: 40px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+
+color: #223960;
+
+
+
+/* 6 products */
+
+position: absolute;
+width: 66px;
+height: 16px;
+left: calc(50% - 66px/2 - 134.5px);
+top: 78px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Search products...... */
+
+position: absolute;
+width: 120px;
+height: 16px;
+left: calc(50% - 120px/2 - 58.5px);
+top: 123px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Group 236 */
+
+position: absolute;
+width: 63px;
+height: 32px;
+left: 304px;
+top: 187px;
+
+
+
+/* Rectangle 58 */
+
+position: absolute;
+width: 63px;
+height: 32px;
+left: calc(50% - 63px/2 + 139px);
+top: 187px;
+
+background: #223960;
+border-radius: 5px;
+
+
+/* +Add */
+
+position: absolute;
+width: 35px;
+height: 16px;
+left: calc(50% - 35px/2 + 139px);
+top: 195px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 38px;
+top: 119px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #8A8080;
+
+
+/* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 408px;
+height: 197px;
+left: calc(50% - 408px/2 + 0.5px);
+top: -26px;
+
+border: 1px solid #EDEDED;
+
+
+/* Rectangle 15 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 172px;
+left: calc(50% - 341px/2);
+top: 252px;
+
+background: #FFFFFF;
+border: 1px solid #00C479;
+border-radius: 20px;
+
+
+/* Tata Salt 1kg */
+
+position: absolute;
+width: 113px;
+height: 18px;
+left: calc(50% - 113px/2 - 102px);
+top: 267px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 54 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 267px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 267px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 267px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 99 */
+
+position: absolute;
+width: 313px;
+height: 31px;
+left: 38px;
+top: 371px;
+
+
+
+/* MRP ₹22 */
+
+position: absolute;
+width: 33px;
+height: 31px;
+left: calc(50% - 33px/2 - 142px);
+top: 371px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Purchase ₹18 */
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: calc(50% - 63px/2 - 50px);
+top: 371px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Profit/unit ₹2 */
+
+position: absolute;
+width: 65px;
+height: 31px;
+left: calc(50% - 65px/2 + 33px);
+top: 371px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Stock 100 Packet */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 371px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Rectangle 24 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 321px;
+
+background: #FF6900;
+border-radius: 8px;
+
+
+/* Tata Salt 1kg */
+
+position: absolute;
+width: 113px;
+height: 18px;
+left: calc(50% - 113px/2 - 102px);
+top: 267px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 267px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 267px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 202 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 38px;
+top: 321px;
+
+
+
+/* Rectangle 23 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 123px);
+top: 321px;
+
+background: #00C479;
+border-radius: 8px;
+
+
+/* Sell */
+
+position: absolute;
+width: 26px;
+height: 18px;
+left: calc(50% - 26px/2 - 122.5px);
+top: 328px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* + Stock */
+
+position: absolute;
+width: 47px;
+height: 18px;
+left: calc(50% - 47px/2 + 119px);
+top: 328px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 201 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 115px;
+top: 321px;
+
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 46px);
+top: 321px;
+
+background: #F6F6F6;
+border-radius: 8px;
+
+
+/* Group 55 */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: 121px;
+top: 327px;
+
+
+
+/* Qty */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: calc(50% - 24px/2 - 63.5px);
+top: 327px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Group 102 */
+
+position: absolute;
+width: 0px;
+height: 16px;
+left: 170px;
+top: 329px;
+
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 329px;
+
+border: 1.5px solid #8A8080;
+transform: matrix(0, -1, -1, 0, 0, 0);
+
+
+/* Arrow 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 344px;
+
+border: 1.5px solid #8A8080;
+transform: rotate(90deg);
+
+
+/* Rectangle 25 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 172px;
+left: calc(50% - 341px/2);
+top: 446px;
+
+background: #FFFFFF;
+border: 1px solid #FF6900;
+border-radius: 20px;
+
+
+/* Group 104 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 461px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 461px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 461px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* MRP ₹12 */
+
+position: absolute;
+width: 33px;
+height: 31px;
+left: calc(50% - 33px/2 - 142px);
+top: 565px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Purchase ₹8 */
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: calc(50% - 63px/2 - 50px);
+top: 565px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Profit/unit ₹2 */
+
+position: absolute;
+width: 65px;
+height: 31px;
+left: calc(50% - 65px/2 + 33px);
+top: 565px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Stock 5 Packet */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 565px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Rectangle 30 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 18px);
+top: 457px;
+
+background: #FFD6BA;
+border-radius: 8px;
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 515px;
+
+background: #FF6900;
+border-radius: 8px;
+
+
+/* Parle-G Biscuit */
+
+position: absolute;
+width: 134px;
+height: 24px;
+left: calc(50% - 134px/2 - 91.5px);
+top: 461px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 108 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 461px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 461px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 461px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 204 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 38px;
+top: 515px;
+
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 123px);
+top: 515px;
+
+background: #00C479;
+border-radius: 8px;
+
+
+/* Sell */
+
+position: absolute;
+width: 26px;
+height: 18px;
+left: calc(50% - 26px/2 - 122.5px);
+top: 522px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* + Stock */
+
+position: absolute;
+width: 47px;
+height: 18px;
+left: calc(50% - 47px/2 + 119px);
+top: 522px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Low */
+
+position: absolute;
+width: 27px;
+height: 18px;
+left: calc(50% - 27px/2 + 18px);
+top: 464px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FF6900;
+
+
+
+/* Group 203 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 115px;
+top: 515px;
+
+
+
+/* Rectangle 26 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 46px);
+top: 515px;
+
+background: #F6F6F6;
+border-radius: 8px;
+
+
+/* Group 106 */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: 121px;
+top: 521px;
+
+
+
+/* Qty */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: calc(50% - 24px/2 - 63.5px);
+top: 521px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Group 109 */
+
+position: absolute;
+width: 0px;
+height: 16px;
+left: 170px;
+top: 523px;
+
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 523px;
+
+border: 1.5px solid #8A8080;
+transform: matrix(0, -1, -1, 0, 0, 0);
+
+
+/* Arrow 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 538px;
+
+border: 1.5px solid #8A8080;
+transform: rotate(90deg);
+
+
+/* Rectangle 31 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 172px;
+left: calc(50% - 341px/2);
+top: 640px;
+
+background: #FFFFFF;
+border: 1px solid #00C479;
+border-radius: 20px;
+
+
+/* Group 111 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 655px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 655px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 655px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* MRP ₹185 */
+
+position: absolute;
+width: 33px;
+height: 31px;
+left: calc(50% - 33px/2 - 142px);
+top: 759px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Purchase ₹165 */
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: calc(50% - 63px/2 - 50px);
+top: 759px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Profit/unit ₹15 */
+
+position: absolute;
+width: 65px;
+height: 31px;
+left: calc(50% - 65px/2 + 33px);
+top: 759px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Stock 28 Litre */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 759px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Rectangle 36 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 709px;
+
+background: #FF6900;
+border-radius: 8px;
+
+
+/* Fortune Oil 1L */
+
+position: absolute;
+width: 128px;
+height: 24px;
+left: calc(50% - 128px/2 - 94.5px);
+top: 655px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 114 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 655px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 655px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 655px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 206 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 38px;
+top: 709px;
+
+
+
+/* Rectangle 34 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 123px);
+top: 709px;
+
+background: #00C479;
+border-radius: 8px;
+
+
+/* Sell */
+
+position: absolute;
+width: 26px;
+height: 18px;
+left: calc(50% - 26px/2 - 122.5px);
+top: 716px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* + Stock */
+
+position: absolute;
+width: 47px;
+height: 18px;
+left: calc(50% - 47px/2 + 119px);
+top: 716px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 205 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 115px;
+top: 709px;
+
+
+
+/* Rectangle 32 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 46px);
+top: 709px;
+
+background: #F6F6F6;
+border-radius: 8px;
+
+
+/* Group 112 */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: 121px;
+top: 715px;
+
+
+
+/* Qty */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: calc(50% - 24px/2 - 63.5px);
+top: 715px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Group 115 */
+
+position: absolute;
+width: 0px;
+height: 16px;
+left: 170px;
+top: 717px;
+
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 717px;
+
+border: 1.5px solid #8A8080;
+transform: matrix(0, -1, -1, 0, 0, 0);
+
+
+/* Arrow 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 732px;
+
+border: 1.5px solid #8A8080;
+transform: rotate(90deg);
+
+
+/* Rectangle 37 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 172px;
+left: calc(50% - 341px/2);
+top: 834px;
+
+background: #FFFFFF;
+border: 1px solid #00C479;
+border-radius: 20px;
+
+
+/* Group 117 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 849px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 849px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 849px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* MRP ₹5 */
+
+position: absolute;
+width: 33px;
+height: 31px;
+left: calc(50% - 33px/2 - 142px);
+top: 953px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Purchase ₹3 */
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: calc(50% - 63px/2 - 50px);
+top: 953px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Profit/unit ₹2 */
+
+position: absolute;
+width: 65px;
+height: 31px;
+left: calc(50% - 65px/2 + 33px);
+top: 953px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Stock 98 Packet */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 953px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Rectangle 41 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 903px;
+
+background: #FF6900;
+border-radius: 8px;
+
+
+/* Balaji Chips */
+
+position: absolute;
+width: 105px;
+height: 24px;
+left: calc(50% - 105px/2 - 106px);
+top: 849px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 120 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 849px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 849px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 849px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 208 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 38px;
+top: 903px;
+
+
+
+/* Rectangle 40 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 123px);
+top: 903px;
+
+background: #00C479;
+border-radius: 8px;
+
+
+/* Sell */
+
+position: absolute;
+width: 26px;
+height: 18px;
+left: calc(50% - 26px/2 - 122.5px);
+top: 910px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* + Stock */
+
+position: absolute;
+width: 47px;
+height: 18px;
+left: calc(50% - 47px/2 + 119px);
+top: 910px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 207 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 115px;
+top: 903px;
+
+
+
+/* Rectangle 38 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 46px);
+top: 903px;
+
+background: #F6F6F6;
+border-radius: 8px;
+
+
+/* Group 118 */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: 121px;
+top: 909px;
+
+
+
+/* Qty */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: calc(50% - 24px/2 - 63.5px);
+top: 909px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Group 121 */
+
+position: absolute;
+width: 0px;
+height: 16px;
+left: 170px;
+top: 911px;
+
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 911px;
+
+border: 1.5px solid #8A8080;
+transform: matrix(0, -1, -1, 0, 0, 0);
+
+
+/* Arrow 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 926px;
+
+border: 1.5px solid #8A8080;
+transform: rotate(90deg);
+
+
+/* Rectangle 42 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 172px;
+left: calc(50% - 341px/2);
+top: 1028px;
+
+background: #FFFFFF;
+border: 1px solid #F42018;
+border-radius: 20px;
+
+
+/* Group 123 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 1043px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 1043px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 1043px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* MRP ₹15 */
+
+position: absolute;
+width: 33px;
+height: 31px;
+left: calc(50% - 33px/2 - 142px);
+top: 1147px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Purchase ₹12 */
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: calc(50% - 63px/2 - 50px);
+top: 1147px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Profit/unit ₹3 */
+
+position: absolute;
+width: 65px;
+height: 31px;
+left: calc(50% - 65px/2 + 33px);
+top: 1147px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Stock 0 Packet */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 1147px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Rectangle 46 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 1097px;
+
+background: #FF6900;
+border-radius: 8px;
+
+
+/* Maggi Noodles */
+
+position: absolute;
+width: 133px;
+height: 24px;
+left: calc(50% - 133px/2 - 92px);
+top: 1043px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 126 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 1043px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 1043px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 1043px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 211 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 38px;
+top: 1097px;
+
+
+
+/* Rectangle 45 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 123px);
+top: 1097px;
+
+background: #00C479;
+border-radius: 8px;
+
+
+/* Sell */
+
+position: absolute;
+width: 26px;
+height: 18px;
+left: calc(50% - 26px/2 - 122.5px);
+top: 1104px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* + Stock */
+
+position: absolute;
+width: 47px;
+height: 18px;
+left: calc(50% - 47px/2 + 119px);
+top: 1104px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 52 */
+
+position: absolute;
+width: 97px;
+height: 31px;
+left: calc(50% - 97px/2 + 32px);
+top: 1039px;
+
+background: #F42018;
+border-radius: 8px;
+
+
+/* OUT OF STOCK */
+
+position: absolute;
+width: 81px;
+height: 11px;
+left: calc(50% - 81px/2 + 32px);
+top: 1049px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 210 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 115px;
+top: 1097px;
+
+
+
+/* Rectangle 43 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 46px);
+top: 1097px;
+
+background: #F6F6F6;
+border-radius: 8px;
+
+
+/* Group 209 */
+
+position: absolute;
+width: 49px;
+height: 18px;
+left: 121px;
+top: 1103px;
+
+
+
+/* Group 124 */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: 121px;
+top: 1103px;
+
+
+
+/* Qty */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: calc(50% - 24px/2 - 63.5px);
+top: 1103px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Group 127 */
+
+position: absolute;
+width: 0px;
+height: 16px;
+left: 170px;
+top: 1105px;
+
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 1105px;
+
+border: 1.5px solid #8A8080;
+transform: matrix(0, -1, -1, 0, 0, 0);
+
+
+/* Arrow 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 1120px;
+
+border: 1.5px solid #8A8080;
+transform: rotate(90deg);
+
+
+/* Rectangle 47 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 172px;
+left: calc(50% - 341px/2);
+top: 1222px;
+
+background: #FFFFFF;
+border: 1px solid #00C479;
+border-radius: 20px;
+
+
+/* Group 129 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 1237px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 1237px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 1237px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 246 */
+
+position: absolute;
+width: 313px;
+height: 31px;
+left: 38px;
+top: 1341px;
+
+
+
+/* MRP ₹60 */
+
+position: absolute;
+width: 33px;
+height: 31px;
+left: calc(50% - 33px/2 - 142px);
+top: 1341px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Purchase ₹30 */
+
+position: absolute;
+width: 63px;
+height: 31px;
+left: calc(50% - 63px/2 - 50px);
+top: 1341px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Profit/unit ₹30 */
+
+position: absolute;
+width: 65px;
+height: 31px;
+left: calc(50% - 65px/2 + 33px);
+top: 1341px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Stock 76 Packet */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 1341px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #8A8080;
+
+
+
+/* Rectangle 51 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 + 119px);
+top: 1291px;
+
+background: #FF6900;
+border-radius: 8px;
+
+
+/* Surf Excel */
+
+position: absolute;
+width: 88px;
+height: 24px;
+left: calc(50% - 88px/2 - 114.5px);
+top: 1237px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 132 */
+
+position: absolute;
+width: 45px;
+height: 16px;
+left: 303px;
+top: 1237px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 303px;
+top: 1237px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1FABEA;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 16px;
+left: 336px;
+top: 1237px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0.01%;
+bottom: 0%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 46.84%;
+right: 46.91%;
+top: 40.68%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 21.91%;
+right: 71.88%;
+top: 40.67%;
+bottom: 13.04%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 71.87%;
+right: 22%;
+top: 40.67%;
+bottom: 13.05%;
+
+background: #D43500;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Group 213 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 38px;
+top: 1291px;
+
+
+
+/* Rectangle 50 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 123px);
+top: 1291px;
+
+background: #00C479;
+border-radius: 8px;
+
+
+/* Sell */
+
+position: absolute;
+width: 26px;
+height: 18px;
+left: calc(50% - 26px/2 - 122.5px);
+top: 1298px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* + Stock */
+
+position: absolute;
+width: 47px;
+height: 18px;
+left: calc(50% - 47px/2 + 119px);
+top: 1298px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 212 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: 115px;
+top: 1291px;
+
+
+
+/* Rectangle 48 */
+
+position: absolute;
+width: 71px;
+height: 31px;
+left: calc(50% - 71px/2 - 46px);
+top: 1291px;
+
+background: #F6F6F6;
+border-radius: 8px;
+
+
+/* Group 130 */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: 121px;
+top: 1297px;
+
+
+
+/* Qty */
+
+position: absolute;
+width: 24px;
+height: 18px;
+left: calc(50% - 24px/2 - 63.5px);
+top: 1297px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Group 133 */
+
+position: absolute;
+width: 0px;
+height: 16px;
+left: 170px;
+top: 1299px;
+
+
+
+/* Arrow 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 1299px;
+
+border: 1.5px solid #8A8080;
+transform: matrix(0, -1, -1, 0, 0, 0);
+
+
+/* Arrow 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1px;
+height: 0px;
+left: 170px;
+top: 1314px;
+
+border: 1.5px solid #8A8080;
+transform: rotate(90deg);
+
+
+/* Group 237 */
+
+position: absolute;
+width: 70px;
+height: 30px;
+left: 297px;
+top: 22px;
+
+
+
+/* Rectangle 58 */
+
+position: absolute;
+width: 70px;
+height: 30px;
+left: calc(50% - 70px/2 + 135.5px);
+top: 22px;
+
+background: #D9D9D9;
+opacity: 0.24;
+border-radius: 5px;
+
+
+/* Group 232 */
+
+position: absolute;
+width: 62px;
+height: 16px;
+left: 301px;
+top: 29px;
+
+
+
+/* History */
+
+position: absolute;
+width: 46px;
+height: 16px;
+left: calc(50% - 46px/2 + 127.5px);
+top: 29px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 351px;
+top: 32px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #8A8080;
+
+
+/* Vector */
+
+position: absolute;
+left: 48.39%;
+right: 26.76%;
+top: 18.4%;
+bottom: 30.19%;
+
+background: #8A8080;
+
+
+/* Group 233 */
+
+position: absolute;
+width: 66px;
+height: 32px;
+left: 26px;
+top: 187px;
+
+
+
+/* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 66px;
+height: 32px;
+left: calc(50% - 66px/2 - 137.5px);
+top: 187px;
+
+background: #CEDFFD;
+opacity: 0.24;
+border: 1px solid #223960;
+border-radius: 5px;
+
+
+/* Group 215 */
+
+position: absolute;
+width: 51px;
+height: 23px;
+left: 34px;
+top: 192px;
+
+
+
+/* Total items: 16.00 */
+
+position: absolute;
+width: 51px;
+height: 23px;
+left: calc(50% - 51px/2 - 137px);
+top: 192px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 234 */
+
+position: absolute;
+width: 78px;
+height: 32px;
+left: 102px;
+top: 187px;
+
+
+
+/* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 78px;
+height: 32px;
+left: calc(50% - 78px/2 - 55.5px);
+top: 187px;
+
+background: #FFAE75;
+opacity: 0.24;
+border: 1px solid #FF6900;
+border-radius: 5px;
+
+
+/* Group 215 */
+
+position: absolute;
+width: 66px;
+height: 23px;
+left: 108px;
+top: 192px;
+
+
+
+/* Value of stock: 12,000 */
+
+position: absolute;
+width: 66px;
+height: 23px;
+left: calc(50% - 66px/2 - 55.5px);
+top: 192px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 235 */
+
+position: absolute;
+width: 78px;
+height: 32px;
+left: 190px;
+top: 187px;
+
+
+
+/* Rectangle 58 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 78px;
+height: 32px;
+left: calc(50% - 78px/2 + 32.5px);
+top: 187px;
+
+background: #E5FFF5;
+opacity: 0.24;
+border: 1px solid #00C479;
+border-radius: 5px;
+
+
+/* Group 215 */
+
+position: absolute;
+width: 65px;
+height: 24px;
+left: 197px;
+top: 191px;
+
+
+
+/* Profit of stock: 5,000 */
+
+position: absolute;
+width: 65px;
+height: 24px;
+left: calc(50% - 65px/2 + 33px);
+top: 191px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Group 217 */
+
+position: absolute;
+width: 406px;
+height: 76px;
+left: -6px;
+top: 1428px;
+
+
+
+/* Group 16 */
+
+position: absolute;
+width: 406px;
+height: 76px;
+left: calc(50% - 406px/2 + 0.5px);
+top: 1428px;
+
+
+
+/* Group 14 */
+
+position: absolute;
+width: 406px;
+height: 76px;
+left: -6px;
+top: 1428px;
+
+
+
+/* Group 6 */
+
+position: absolute;
+width: 406px;
+height: 76px;
+left: calc(50% - 406px/2 + 0.5px);
+top: 1428px;
+
+
+
+/* Rectangle 7 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 406px;
+height: 76px;
+left: -6px;
+top: 1428px;
+
+background: #FFFFFF;
+border: 0.5px solid #D0D0D0;
+border-radius: 0px;
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 38px;
+height: 34px;
+left: calc(50% - 38px/2 - 52.5px);
+top: calc(50% - 34px/2 + 714.5px);
+
+background: #D0D0D0;
+border-radius: 5px;
+
+
+/* Group 170 */
+
+position: absolute;
+width: 23.39px;
+height: 30.08px;
+left: 65px;
+top: 1443px;
+
+
+
+/* Group 39 */
+
+position: absolute;
+width: 23.39px;
+height: 10.24px;
+left: 65px;
+top: 1462.84px;
+
+
+
+/* Home */
+
+position: absolute;
+left: 16.54%;
+right: 77.51%;
+top: 98.38%;
+bottom: 0.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 10px;
+text-align: center;
+
+color: #21385D;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 23px;
+height: 20px;
+left: 65px;
+top: 1443px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: -0.01%;
+
+background: #21385D;
+
+
+/* Group 175 */
+
+position: absolute;
+width: 29px;
+height: 30.05px;
+left: 304px;
+top: 1443px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 308px;
+top: 1443px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: -0.01%;
+right: 0.01%;
+top: 0.02%;
+bottom: -0.01%;
+
+background: #525252;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.28%;
+right: 31.33%;
+top: 31.82%;
+bottom: 31.85%;
+
+background: #525252;
+
+
+/* Group 41 */
+
+position: absolute;
+width: 29px;
+height: 9.73px;
+left: 304px;
+top: 1463.32px;
+
+
+
+/* Settings */
+
+position: absolute;
+left: 77.35%;
+right: 15.27%;
+top: 98.41%;
+bottom: 0.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 10px;
+/* identical to box height */
+text-align: center;
+
+color: #525252;
+
+
+
+/* Group 173 */
+
+position: absolute;
+width: 20px;
+height: 30px;
+left: 195px;
+top: 1443px;
+
+
+
+/* Group 45 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: calc(50% - 20px/2 + 8.5px);
+top: 1443px;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 195px;
+top: 1443px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0.01%;
+
+background: #525252;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.03%;
+right: 36.07%;
+top: 24.05%;
+bottom: 72.13%;
+
+background: #525252;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.05%;
+right: 36.07%;
+top: 48.09%;
+bottom: 48.09%;
+
+background: #525252;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.06%;
+right: 36.1%;
+top: 36.05%;
+bottom: 60.11%;
+
+background: #525252;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.05%;
+right: 45.99%;
+top: 60.09%;
+bottom: 36.07%;
+
+background: #525252;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.03%;
+right: 50.42%;
+top: 72.13%;
+bottom: 24.05%;
+
+background: #525252;
+
+
+/* Vector */
+
+position: absolute;
+left: 72.32%;
+right: 14.88%;
+top: 65.8%;
+bottom: 8.36%;
+
+background: #525252;
+
+
+/* Group 169 */
+
+position: absolute;
+width: 18px;
+height: 10px;
+left: 197px;
+top: 1463px;
+
+
+
+/* Bill’s */
+
+position: absolute;
+left: 50.13%;
+right: 45.29%;
+top: 98.39%;
+bottom: 0.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 10px;
+/* identical to box height */
+text-align: center;
+
+color: #525252;
+
+
+
+/* Group 174 */
+
+position: absolute;
+width: 23px;
+height: 31.05px;
+left: 248px;
+top: 1442px;
+
+
+
+/* Group 40 */
+
+position: absolute;
+width: 23px;
+height: 9.73px;
+left: 248px;
+top: 1463.32px;
+
+
+
+/* Khata */
+
+position: absolute;
+left: 63.1%;
+right: 31.04%;
+top: 98.41%;
+bottom: 0.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 10px;
+/* identical to box height */
+text-align: center;
+
+color: #525252;
+
+
+
+/* Cont 1 */
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 248px;
+top: 1442px;
+
+background: url(Cont.png);
+
+
+/* Group 172 */
+
+position: absolute;
+width: 35px;
+height: 30.05px;
+left: 127px;
+top: 1443px;
+
+
+
+/* Group 40 */
+
+position: absolute;
+width: 35px;
+height: 9.73px;
+left: 127px;
+top: 1463.32px;
+
+
+
+/* Inventory */
+
+position: absolute;
+left: 32.32%;
+right: 58.78%;
+top: 98.41%;
+bottom: 0.94%;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 8px;
+line-height: 10px;
+/* identical to box height */
+text-align: center;
+
+color: #525252;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.61%;
+right: 60.81%;
+top: 97.04%;
+bottom: 1.61%;
+
+background: #525252;

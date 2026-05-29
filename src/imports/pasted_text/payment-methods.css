@@ -1,0 +1,525 @@
+/* Payment Methods */
+
+position: relative;
+width: 393px;
+height: 1007px;
+
+background: #FFFFFF;
+
+
+/* Add Payment Method */
+
+position: absolute;
+width: 156px;
+height: 19px;
+left: calc(50% - 156px/2 - 40.5px);
+top: 40px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Arrow 12 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 27px;
+height: 0px;
+left: 13px;
+top: 50px;
+
+border: 2px solid #223960;
+transform: rotate(-180deg);
+
+
+/* Line 52 */
+
+position: absolute;
+width: 393px;
+height: 0px;
+left: 0px;
+top: 66px;
+
+opacity: 0.72;
+border: 1px solid #DBDBDB;
+
+
+/* Group 91 */
+
+position: absolute;
+width: 22px;
+height: 17.22px;
+left: 48px;
+top: 41px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.21%;
+right: 82.19%;
+top: 4.07%;
+bottom: 94.22%;
+
+background: #223960;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.41%;
+right: 84.29%;
+top: 4.57%;
+bottom: 94.39%;
+
+background: #223960;
+
+
+/* UPI */
+
+position: absolute;
+width: 29px;
+height: 18px;
+left: calc(50% - 29px/2 - 86px);
+top: 91px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #535353;
+
+
+
+/* Trusted by 1000+ Indian customers for secure and seamless payments. */
+
+position: absolute;
+width: 343px;
+height: 12px;
+left: calc(50% - 343px/2);
+top: 944px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 120.82%;
+/* or 13px */
+text-align: center;
+
+color: #535353;
+
+
+
+/* Debit Card */
+
+position: absolute;
+width: 82px;
+height: 18px;
+left: calc(50% - 82px/2 - 59.5px);
+top: 202px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #535353;
+
+
+
+/* Credit Card */
+
+position: absolute;
+width: 82px;
+height: 18px;
+left: calc(50% - 82px/2 - 59.5px);
+top: 165px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #535353;
+
+
+
+/* Net Banking */
+
+position: absolute;
+width: 88px;
+height: 18px;
+left: calc(50% - 88px/2 - 56.5px);
+top: 239px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #535353;
+
+
+
+/* QR Code Payments */
+
+position: absolute;
+width: 139px;
+height: 18px;
+left: calc(50% - 139px/2 - 31px);
+top: 128px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #535353;
+
+
+
+/* Group 276 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 234px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 234px;
+
+background: #E7E5E5;
+border-radius: 6px;
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 23px;
+height: 17px;
+left: 51px;
+top: 240px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 19.69%;
+right: 19.7%;
+top: -0.01%;
+bottom: 71.09%;
+
+background: #203B73;
+
+
+/* Vector */
+
+position: absolute;
+left: 17.96%;
+right: 18.1%;
+top: 74.02%;
+bottom: 13.13%;
+
+background: #26A3DD;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 95.99%;
+bottom: -0.01%;
+
+background: #203B73;
+
+
+/* Vector */
+
+position: absolute;
+left: 27%;
+right: 61.61%;
+top: 32.77%;
+bottom: 29.57%;
+
+background: #1DA0DB;
+
+
+/* Vector */
+
+position: absolute;
+left: 43.98%;
+right: 44.39%;
+top: 32.74%;
+bottom: 29.53%;
+
+background: #1DA0DB;
+
+
+/* Vector */
+
+position: absolute;
+left: 61.08%;
+right: 27.25%;
+top: 32.64%;
+bottom: 29.51%;
+
+background: #1DA0DB;
+
+
+/* Group 270 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 160px;
+
+
+
+/* Group 268 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 160px;
+
+
+
+/* Group 267 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 160px;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 160px;
+
+background: #E7E5E5;
+border-radius: 6px;
+
+
+/* Group 269 */
+
+position: absolute;
+width: 23px;
+height: 17px;
+left: 51px;
+top: 166px;
+
+
+
+/* Group 267 */
+
+position: absolute;
+width: 23px;
+height: 17px;
+left: 51px;
+top: 166px;
+
+
+
+/* image 6 */
+
+position: absolute;
+width: 23px;
+height: 17px;
+left: 51px;
+top: 166px;
+
+background: url(image.png);
+
+
+/* Group 272 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 123px;
+
+
+
+/* Group 266 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 123px;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 123px;
+
+background: #E7E5E5;
+border-radius: 6px;
+
+
+/* Group 271 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 52px;
+top: 127px;
+
+
+
+/* image 5 */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 52px;
+top: 127px;
+
+background: url(image.png);
+
+
+/* Group 274 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 86px;
+
+
+
+/* Group 265 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 86px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 86px;
+
+background: #E7E5E5;
+border-radius: 6px;
+
+
+/* Group 273 */
+
+position: absolute;
+width: 22px;
+height: 8px;
+left: 51px;
+top: 96px;
+
+
+
+/* image 4 */
+
+position: absolute;
+width: 22px;
+height: 8px;
+left: 51px;
+top: 96px;
+
+background: url(image.png);
+
+
+/* Group 275 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 197px;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 28px;
+height: 28px;
+left: 48px;
+top: 197px;
+
+background: #E7E5E5;
+border-radius: 6px;
+
+
+/* image 8 */
+
+position: absolute;
+height: 18px;
+left: 13.23%;
+right: 81.42%;
+top: 202px;
+
+background: url(image.png);
+
+
+/* image 9 */
+
+position: absolute;
+width: 267px;
+height: 72px;
+left: calc(50% - 267px/2 - 15px);
+top: 285px;
+
+background: url(image.png);

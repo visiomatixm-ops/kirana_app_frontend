@@ -1,0 +1,44 @@
+/* ─── Toast System CSS ──────────────────────────────────────────────────────── */
+
+/* Swipe to dismiss — touch support */
+.toast-item {
+  touch-action: pan-y;
+  user-select: none;
+}
+
+/* Progress bar shimmer */
+@keyframes toast-progress {
+  from { transform: scaleX(1); }
+  to   { transform: scaleX(0); }
+}
+
+.toast-progress {
+  height: 2px;
+  border-radius: 0 0 12px 12px;
+  transform-origin: left center;
+  animation: toast-progress linear forwards;
+}
+
+/* Loading spinner */
+@keyframes toast-spin {
+  to { transform: rotate(360deg); }
+}
+.toast-spinner {
+  animation: toast-spin 0.8s linear infinite;
+}
+
+/* Glassmorphism backdrop (applied to toast container) */
+.toast-glass {
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .toast-item,
+  .toast-progress,
+  .toast-spinner {
+    animation: none !important;
+    transition: none !important;
+  }
+}

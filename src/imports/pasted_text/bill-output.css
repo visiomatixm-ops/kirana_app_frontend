@@ -1,0 +1,389 @@
+/* Bill Output */
+
+position: relative;
+width: 393px;
+height: 232px;
+
+background: #FFFFFF;
+
+
+/* Group 228 */
+
+position: absolute;
+width: 345px;
+height: 210px;
+left: calc(50% - 345px/2);
+top: calc(50% - 210px/2);
+
+
+
+/* Rectangle 59 */
+
+position: absolute;
+width: 58px;
+height: 58px;
+left: 307px;
+top: 11px;
+
+background: #223960;
+border-radius: 7px;
+
+
+/* Sharma Kirana Store */
+
+position: absolute;
+width: 159px;
+height: 18px;
+left: calc(50% - 159px/2 - 93px);
+top: 11px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Shop Logo */
+
+position: absolute;
+width: 42px;
+height: 40px;
+left: calc(50% - 42px/2 + 139.5px);
+top: 20px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 120.82%;
+/* or 19px */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Line 41 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 24px;
+top: 131px;
+
+border: 1px solid #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 43 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 24px;
+top: 99px;
+
+border: 1px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* Line 42 */
+
+position: absolute;
+width: 341px;
+height: 0px;
+left: 24px;
+top: 164px;
+
+border: 1px dashed #8A8080;
+transform: rotate(0.17deg);
+
+
+/* 22 Apr 2026 01:26 pm */
+
+position: absolute;
+width: 119px;
+height: 12px;
+left: 24px;
+top: 51px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* GTS:22AAAAA0000A1Z5 */
+
+position: absolute;
+width: 115px;
+height: 12px;
+left: 24px;
+top: 34px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Bill No: #1001 */
+
+position: absolute;
+width: 63px;
+height: 12px;
+left: 24px;
+top: 68px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* ITEM */
+
+position: absolute;
+width: 25px;
+height: 12px;
+left: 24px;
+top: 111px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* QTY */
+
+position: absolute;
+width: 19px;
+height: 12px;
+left: 150px;
+top: 111px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* RATE */
+
+position: absolute;
+width: 25px;
+height: 12px;
+left: 247px;
+top: 111px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* TOTAL */
+
+position: absolute;
+width: 30px;
+height: 12px;
+left: 323px;
+top: 111px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+
+color: #8A8080;
+
+
+
+/* Balaji Chips */
+
+position: absolute;
+width: 81px;
+height: 18px;
+left: calc(50% - 81px/2 - 132px);
+top: 139px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* ₹5.00 */
+
+position: absolute;
+width: 38px;
+height: 16px;
+left: calc(50% - 38px/2 + 138.5px);
+top: 140px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* 1 packet */
+
+position: absolute;
+width: 55px;
+height: 17px;
+left: 156px;
+top: 139px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* ₹5 */
+
+position: absolute;
+width: 17px;
+height: 17px;
+left: 247px;
+top: 139px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 120.82%;
+/* identical to box height, or 17px */
+
+color: #223960;
+
+
+
+/* TOTAL: ₹5.00 */
+
+position: absolute;
+width: 105px;
+height: 18px;
+left: calc(50% - 105px/2 - 120px);
+top: 168px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 120.82%;
+/* or 17px */
+
+color: #223960;
+
+
+
+/* Thank you ! Please visit again. */
+
+position: absolute;
+width: 211px;
+height: 18px;
+left: calc(50% - 211px/2 - 67px);
+top: 203px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 120.82%;
+/* or 18px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Signature */
+
+position: absolute;
+width: 47px;
+height: 12px;
+left: calc(50% - 47px/2 + 146px);
+top: 203px;
+
+font-family: 'Mozilla Headline';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 120.82%;
+/* identical to box height, or 12px */
+text-align: center;
+
+color: #223960;
+
+
+
+/* Rohit Shinde Signature 1 */
+
+position: absolute;
+width: 66px;
+height: 23px;
+left: 303px;
+top: 174px;
+
+background: url(Rohit Shinde Signature.png);

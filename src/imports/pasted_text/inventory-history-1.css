@@ -1,0 +1,1079 @@
+/* Inventory History */
+
+position: relative;
+width: 393px;
+height: 854px;
+
+background: #F1F1F1;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 341px;
+height: 45px;
+left: calc(50% - 341px/2);
+top: 96px;
+
+background: #FFFFFF;
+border-radius: 11px;
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 341px;
+height: 231px;
+left: calc(50% - 341px/2);
+top: 198px;
+
+background: #FFFFFF;
+border-radius: 11px;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 341px;
+height: 231px;
+left: calc(50% - 341px/2);
+top: 469px;
+
+background: #FFFFFF;
+border-radius: 11px;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+width: 341px;
+height: 231px;
+left: calc(50% - 341px/2);
+top: 740px;
+
+background: #FFFFFF;
+border-radius: 11px;
+
+
+/* History */
+
+position: absolute;
+width: 106px;
+height: 38px;
+left: calc(50% - 106px/2 - 117.5px);
+top: 40px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+
+color: #223960;
+
+
+
+/* Search */
+
+position: absolute;
+width: 43px;
+height: 16px;
+left: calc(50% - 43px/2 - 97px);
+top: 110px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Today - Thursday, 23 April 2026 */
+
+position: absolute;
+width: 199px;
+height: 16px;
+left: calc(50% - 199px/2 - 71px);
+top: 170px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Tuesday, 23 April 2026 */
+
+position: absolute;
+width: 143px;
+height: 16px;
+left: calc(50% - 143px/2 - 99px);
+top: 441px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Sunday, 23 April 2026 */
+
+position: absolute;
+width: 138px;
+height: 16px;
+left: calc(50% - 138px/2 - 101.5px);
+top: 712px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Layer_1 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 38px;
+top: 106px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #8A8080;
+
+
+/* Rectangle 19 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 408px;
+height: 197px;
+left: calc(50% - 408px/2 + 0.5px);
+top: -39px;
+
+border: 1px solid #EDEDED;
+
+
+/* Group 219 */
+
+position: absolute;
+width: 29.52px;
+height: 29.52px;
+left: 337px;
+top: 22px;
+
+
+
+/* Ellipse 20 */
+
+position: absolute;
+width: 29.52px;
+height: 29.52px;
+left: 337px;
+top: 22px;
+
+background: #FFFFFF;
+
+
+/* X */
+
+position: absolute;
+width: 18.28px;
+height: 22.49px;
+left: calc(50% - 18.28px/2 + 155.54px);
+top: 24.81px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* Balaji Chips */
+
+position: absolute;
+width: 74px;
+height: 16px;
+left: calc(50% - 74px/2 - 121.5px);
+top: 218px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 1 Packet Sell | MRP ₹5 | Total ₹5 | Profit ₹2+ */
+
+position: absolute;
+width: 214px;
+height: 16px;
+left: calc(50% - 214px/2 - 51.5px);
+top: 238px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 228px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 258px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Sunflower Oil */
+
+position: absolute;
+width: 85px;
+height: 16px;
+left: calc(50% - 85px/2 - 116px);
+top: 268px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 3 liter Sell | MRP ₹350 | Total ₹1050 | Profit ₹150+ */
+
+position: absolute;
+width: 244px;
+height: 16px;
+left: calc(50% - 244px/2 - 36.5px);
+top: 288px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 8:05Am */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 278px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 308px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Tata Salt */
+
+position: absolute;
+width: 53px;
+height: 16px;
+left: calc(50% - 53px/2 - 132px);
+top: 318px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 5 kg Sell | MRP ₹22 | Total ₹110 | Profit ₹10+ */
+
+position: absolute;
+width: 219px;
+height: 16px;
+left: calc(50% - 219px/2 - 49px);
+top: 338px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 7:19Am */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 328px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 358px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Parle-G Biscuit */
+
+position: absolute;
+width: 92px;
+height: 16px;
+left: calc(50% - 92px/2 - 112.5px);
+top: 368px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 6 Packet Sell | MRP ₹5 | Total ₹30 | Profit ₹12+ */
+
+position: absolute;
+width: 226px;
+height: 16px;
+left: calc(50% - 226px/2 - 45.5px);
+top: 388px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 7:03Am */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 378px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 408px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Surf Excel */
+
+position: absolute;
+width: 62px;
+height: 16px;
+left: calc(50% - 62px/2 - 127.5px);
+top: 489px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 2 Packet Sell | MRP ₹100 | Total ₹200 | Profit ₹20+ */
+
+position: absolute;
+width: 247px;
+height: 16px;
+left: calc(50% - 247px/2 - 35px);
+top: 509px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 499px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 529px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Mustard Oil */
+
+position: absolute;
+width: 74px;
+height: 16px;
+left: calc(50% - 74px/2 - 121.5px);
+top: 539px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 3 liter | MRP ₹118 | Total ₹354 | Profit ₹36+ */
+
+position: absolute;
+width: 212px;
+height: 16px;
+left: calc(50% - 212px/2 - 52.5px);
+top: 559px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 549px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 579px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Maggi Noodles */
+
+position: absolute;
+width: 93px;
+height: 16px;
+left: calc(50% - 93px/2 - 112px);
+top: 589px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 5 Packet Sell | MRP ₹22 | Total ₹110 | Profit ₹2+ */
+
+position: absolute;
+width: 232px;
+height: 16px;
+left: calc(50% - 232px/2 - 42.5px);
+top: 609px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 599px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 629px;
+
+border: 0.5px solid #8A8080;
+
+
+/* kaju */
+
+position: absolute;
+width: 26px;
+height: 16px;
+left: calc(50% - 26px/2 - 145.5px);
+top: 639px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 500 Gm Sell | MRP ₹350 | Total ₹350 | Profit ₹15+ */
+
+position: absolute;
+width: 242px;
+height: 16px;
+left: calc(50% - 242px/2 - 37.5px);
+top: 659px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 649px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 679px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Jim Jam Biscuit */
+
+position: absolute;
+width: 93px;
+height: 16px;
+left: calc(50% - 93px/2 - 112px);
+top: 760px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 5 Packet Sell | MRP ₹10 | Total ₹50 | Profit ₹2+ */
+
+position: absolute;
+width: 226px;
+height: 16px;
+left: calc(50% - 226px/2 - 45.5px);
+top: 780px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 770px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 800px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Sugar */
+
+position: absolute;
+width: 35px;
+height: 16px;
+left: calc(50% - 35px/2 - 141px);
+top: 810px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 15 Kg Sell | MRP ₹56 | Total 840 | Profit ₹150+ */
+
+position: absolute;
+width: 226px;
+height: 16px;
+left: calc(50% - 226px/2 - 45.5px);
+top: 830px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 820px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 850px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Group 223 */
+
+position: absolute;
+width: 324px;
+height: 40px;
+left: 37px;
+top: 860px;
+
+
+
+/* Group 220 */
+
+position: absolute;
+width: 318px;
+height: 36px;
+left: 38px;
+top: 860px;
+
+
+
+/* Balaji Chips */
+
+position: absolute;
+width: 74px;
+height: 16px;
+left: calc(50% - 74px/2 - 121.5px);
+top: 860px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 1 Packet Sell | MRP ₹22 | Profit ₹2 */
+
+position: absolute;
+width: 166px;
+height: 16px;
+left: calc(50% - 166px/2 - 75.5px);
+top: 880px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 870px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 900px;
+
+border: 0.5px solid #8A8080;
+
+
+/* Group 224 */
+
+position: absolute;
+width: 324px;
+height: 40px;
+left: 37px;
+top: 910px;
+
+
+
+/* Group 220 */
+
+position: absolute;
+width: 318px;
+height: 36px;
+left: 38px;
+top: 910px;
+
+
+
+/* Balaji Chips */
+
+position: absolute;
+width: 74px;
+height: 16px;
+left: calc(50% - 74px/2 - 121.5px);
+top: 910px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #223960;
+
+
+
+/* 1 Packet Sell | MRP ₹22 | Profit ₹2 */
+
+position: absolute;
+width: 166px;
+height: 16px;
+left: calc(50% - 166px/2 - 75.5px);
+top: 930px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* 2:13Pm */
+
+position: absolute;
+width: 40px;
+height: 16px;
+left: calc(50% - 40px/2 + 139.5px);
+top: 920px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+
+color: #8A8080;
+
+
+
+/* Line 44 */
+
+position: absolute;
+width: 324px;
+height: 0px;
+left: 37px;
+top: 950px;
+
+border: 0.5px solid #8A8080;
