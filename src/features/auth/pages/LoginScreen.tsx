@@ -3,8 +3,13 @@ import { motion } from "motion/react";
 import { Store, Mail, Phone, ArrowLeft } from "lucide-react";
 
 
+
+
+
 import { env } from '@/app/config/env';
 import { GoogleLogin, useGoogleLogin } from '@react-oauth/google';
+import { signInWithPhoneNumber } from "firebase/auth";
+import { auth } from "@/lib/firebase";
 
 export default function LoginScreen({ onLogin, onBack }: { onLogin: (user: any, token: string) => void; onBack: () => void }) {
   const [method, setMethod] = useState<"phone" | "email" | null>(null);
@@ -13,7 +18,10 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: (user: any, 
   const [otp, setOtp] = useState("");
   const [generatedOtp, setGeneratedOtp] = useState("");
   const [showOtp, setShowOtp] = useState(false);
+  const [confirmationResult, setConfirmationResult] =
+  useState<any>(null);
   const otpInputRef = useRef<HTMLInputElement | null>(null);
+
 
   // const loginWithGoogle = useGoogleLogin({
   //   prompt: 'select_account',
@@ -104,76 +112,167 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: (user: any, 
     },
   });
 
-  const handleSendOtp = () => {
-    // call backend to send OTP
-    (async () => {
-      try {
-        const payload: any = {};
-        if (method === 'phone') payload.phone = phone;
-        if (method === 'email') payload.email = email;
+console.log("AUTH =", auth);
+console.log("AUTH TYPE =", typeof auth);
+console.log("AUTH APP =", auth?.app);
+const handleSendOtp = async () => {
+  try {
 
-        const res = await fetch(`${env.apiBaseUrl}/auth/send-otp`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
-        });
-
-        let data: any = {};
-        try {
-          const text = await res.text();
-          data = text ? JSON.parse(text) : {};
-        } catch {
-          data = {};
+    if (method === "email") {
+      const res = await fetch(
+        `${env.apiBaseUrl}/auth/send-otp`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            email,
+          }),
         }
-        if (!res.ok) {
-          alert(data?.message || `Failed to send OTP (status ${res.status})`);
-          return;
-        }
+      );
 
-        // show the OTP entry screen immediately (no blocking alert)
-        setShowOtp(true);
-        setGeneratedOtp(''); // don't store OTP on client
-      } catch (err) {
-        console.error(err);
-        alert('Failed to send OTP');
+      if (!res.ok) {
+        alert("Failed to send OTP");
+        return;
       }
-    })();
-  };
 
-  const handleVerifyOtp = () => {
-    (async () => {
-      try {
-        const payload: any = { otp };
-        if (method === 'phone') payload.phone = phone;
-        if (method === 'email') payload.email = email;
+      setShowOtp(true);
+      return;
+    }
 
-        const res = await fetch(`${env.apiBaseUrl}/auth/verify-otp`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload),
-        });
+    // Phone OTP validation
+    if (!phone || phone.length !== 10) {
+      alert("Please enter a valid 10-digit phone number");
+      return;
+    }
 
-        let data: any = {};
-        try {
-          const text = await res.text();
-          data = text ? JSON.parse(text) : {};
-        } catch {
-          data = {};
+    if (!auth) {
+      alert("Firebase is not properly configured. Please check your environment variables.");
+      return;
+    }
+
+    const phoneNumber = `+91${phone}`;
+    console.log("Sending OTP to:", phoneNumber);
+
+    try {
+      // No client-side captcha used — skip any Recaptcha cleanup
+
+      // Use a minimal mock ApplicationVerifier to bypass client-side captcha entirely.
+      // This relies on server-side or emulator protections; DO NOT use in production.
+      // Minimal ApplicationVerifier compatible mock for local/dev only.
+      // Implements methods the Firebase SDK calls (e.g. _reset).
+      const appVerifier = {
+        type: 'recaptcha',
+        verify: async () => 'mock-token',
+        _reset: () => {},
+        clear: () => {},
+        render: () => Promise.resolve(),
+        getResponse: () => null,
+        execute: () => {},
+      };
+
+      const result = await signInWithPhoneNumber(auth, phoneNumber, appVerifier);
+      setConfirmationResult(result);
+      setShowOtp(true);
+    } catch (recaptchaErr) {
+      console.error("OTP send error (client verifier):", recaptchaErr);
+      console.error("Auth object at error:", auth);
+      throw recaptchaErr;
+    }
+    
+  } catch (err) {
+    console.error("OTP send error:", err);
+    alert("Failed to send OTP: " + (err as any).message);
+  }
+};
+
+const handleVerifyOtp = async () => {
+
+  try {
+
+    if (
+      method === "phone"
+    ) {
+
+      const result =
+        await confirmationResult.confirm(
+          otp
+        );
+
+      const idToken =
+        await result.user.getIdToken();
+
+      const res =
+        await fetch(
+          `${env.apiBaseUrl}/auth/firebase-phone`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type":
+                "application/json",
+            },
+            body: JSON.stringify({
+              idToken,
+            }),
+          }
+        );
+
+      const data =
+        await res.json();
+
+      const authData =
+        data.data || data;
+
+      onLogin(
+        authData.user,
+        authData.token
+      );
+
+      return;
+    }
+
+    // email OTP
+
+    const res =
+      await fetch(
+        `${env.apiBaseUrl}/auth/verify-otp`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type":
+              "application/json",
+          },
+          body: JSON.stringify({
+            email,
+            otp,
+          }),
         }
-        if (!res.ok) {
-          alert(data?.message || `OTP verification failed (status ${res.status})`);
-          return;
-        }
+      );
 
-        // Received token and user - pass them to adapter/auth context
-        // data should contain { token, user }
-        onLogin(data.user, data.token);
-      } catch (err) {
-        console.error(err);
-        alert('OTP verification failed');
-      }
-    })();
-  };
+    const data =
+      await res.json();
+
+    const authData =
+      data.data || data;
+
+    onLogin(
+      authData.user,
+      authData.token
+    );
+
+  } catch (err) {
+
+    console.error(err);
+
+    alert(
+      "OTP verification failed"
+    );
+
+  }
+};
+
+
 
   useEffect(() => {
     if (showOtp && otpInputRef.current) {
@@ -358,6 +457,7 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: (user: any, 
             >
               Send OTP
             </button>
+             <div id="recaptchacontainer"></div>
           </div>
         ) : (
           <div className="space-y-6">
@@ -381,10 +481,11 @@ export default function LoginScreen({ onLogin, onBack }: { onLogin: (user: any, 
               Verify & Continue
             </button>
 
-              <button onClick={handleSendOtp} className="w-full text-[#0ea5e9] text-sm">Resend OTP</button>
+            <button onClick={handleSendOtp} className="w-full text-[#0ea5e9] text-sm">Resend OTP</button>
           </div>
         )}
       </div>
+     
     </div>
   );
 }

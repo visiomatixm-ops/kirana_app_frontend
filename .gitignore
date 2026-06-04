@@ -19,3 +19,5 @@ Thumbs.db
 
 # Disables / leftovers
 .git_disabled/
+src/config/kirana-billing-app-96ac5-firebase-adminsdk-fbsvc-9f2138579f.json
+*.json
