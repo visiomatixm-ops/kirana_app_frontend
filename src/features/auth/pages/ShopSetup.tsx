@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useGstVerify } from "@/hooks";
 import { motion } from "motion/react";
 import { Store, Upload, Check } from "lucide-react";
 
@@ -8,6 +9,8 @@ export default function ShopSetup({ onComplete }: { onComplete: () => void }) {
   const [address, setAddress] = useState("");
   const [gst, setGst] = useState("");
   const [phone, setPhone] = useState("");
+
+  const { status: gstStatus, message: gstMessage } = useGstVerify(gst);
 
   const handleContinue = () => {
     if (step === 1) {
@@ -82,10 +85,32 @@ export default function ShopSetup({ onComplete }: { onComplete: () => void }) {
               <input
                 type="text"
                 value={gst}
-                onChange={(e) => setGst(e.target.value)}
+                onChange={(e) => setGst(e.target.value.toUpperCase())}
                 placeholder="22AAAAA0000A1Z5"
-                className="w-full bg-white border-2 border-border rounded-xl px-4 py-3 text-foreground focus:border-primary outline-none transition-colors"
+                maxLength={15}
+                style={{
+                  borderColor:
+                    gstStatus === 'valid' ? '#22c55e' :
+                    gstStatus === 'invalid' ? '#ef4444' :
+                    undefined,
+                }}
+                className="w-full bg-white border-2 rounded-xl px-4 py-3 text-foreground outline-none transition-colors"
               />
+              {gstMessage && (
+                <span
+                  style={{
+                    color:
+                      gstStatus === 'valid' ? '#22c55e' :
+                      gstStatus === 'checking' ? '#94a3b8' :
+                      '#ef4444',
+                    fontSize: 12,
+                    marginTop: 4,
+                    display: 'block',
+                  }}
+                >
+                  {gstMessage}
+                </span>
+              )}
             </div>
           </motion.div>
         ) : (
