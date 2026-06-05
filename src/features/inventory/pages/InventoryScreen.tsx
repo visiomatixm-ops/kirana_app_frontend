@@ -1,19 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Package, Plus, Search, AlertTriangle, Edit2, Trash2, X, History, ChevronDown, ChevronUp } from "lucide-react";
+import type { Product } from "@/types";
+import { getErrorMessage } from "@/services/api/apiErrorHandler";
+import { inventoryService } from "../hooks/inventoryService";
 import InventoryHistory from "./InventoryHistory";
-
-interface Product {
-  id: string;
-  name: string;
-  barcode: string;
-  mrp: number;
-  sellingPrice: number;
-  purchasePrice: number;
-  stock: number;
-  lowStockAlert: number;
-  unit: string;
-}
 
 interface InventoryScreenProps {
   activeScreen?: string;
@@ -21,74 +12,9 @@ interface InventoryScreenProps {
 }
 
 export default function InventoryScreen({ activeScreen = "inventory", onNavigate = () => {} }: InventoryScreenProps) {
-  const [products, setProducts] = useState<Product[]>([
-    {
-      id: "1",
-      name: "Tata Salt 1kg",
-      barcode: "8901234567890",
-      mrp: 22,
-      sellingPrice: 22,
-      purchasePrice: 18,
-      stock: 100,
-      lowStockAlert: 10,
-      unit: "Packet",
-    },
-    {
-      id: "2",
-      name: "Parle-G Biscuit",
-      barcode: "8901234567891",
-      mrp: 12,
-      sellingPrice: 12,
-      purchasePrice: 8,
-      stock: 5,
-      lowStockAlert: 20,
-      unit: "Packet",
-    },
-    {
-      id: "3",
-      name: "Fortune Oil 1L",
-      barcode: "8901234567892",
-      mrp: 185,
-      sellingPrice: 185,
-      purchasePrice: 165,
-      stock: 28,
-      lowStockAlert: 15,
-      unit: "Litre",
-    },
-    {
-      id: "4",
-      name: "Balaji Chips",
-      barcode: "8901234567893",
-      mrp: 5,
-      sellingPrice: 5,
-      purchasePrice: 3,
-      stock: 98,
-      lowStockAlert: 10,
-      unit: "Packet",
-    },
-    {
-      id: "5",
-      name: "Maggi Noodles",
-      barcode: "8901234567894",
-      mrp: 15,
-      sellingPrice: 15,
-      purchasePrice: 12,
-      stock: 0,
-      lowStockAlert: 10,
-      unit: "Packet",
-    },
-    {
-      id: "6",
-      name: "Surf Excel",
-      barcode: "8901234567895",
-      mrp: 60,
-      sellingPrice: 60,
-      purchasePrice: 30,
-      stock: 76,
-      lowStockAlert: 10,
-      unit: "Packet",
-    },
-  ]);
+  const [products, setProducts] = useState<Product[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   const [showHistory, setShowHistory] = useState(false);
 
@@ -104,6 +30,48 @@ export default function InventoryScreen({ activeScreen = "inventory", onNavigate
     lowStockAlert: 10,
     unit: "pcs",
   });
+
+  useEffect(() => {
+    let cancelled = false;
+
+    const loadProducts = async () => {
+      setIsLoading(true);
+      setError(null);
+
+      try {
+        const response = await inventoryService.getProducts();
+        if (!cancelled) {
+          setProducts(response.data.data);
+        }
+      } catch (err) {
+        if (!cancelled) {
+          setError(getErrorMessage(err));
+        }
+      } finally {
+        if (!cancelled) {
+          setIsLoading(false);
+        }
+      }
+    };
+
+    loadProducts();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const handleDeleteProduct = async (id: string) => {
+    if (!window.confirm("Are you sure you want to delete this product?")) {
+      return;
+    }
+    try {
+      await inventoryService.deleteProduct(id);
+      setProducts((prev) => prev.filter((p) => p.id !== id));
+    } catch (err) {
+      alert(getErrorMessage(err));
+    }
+  };
 
   const filteredProducts = products.filter((p) =>
     p.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -217,7 +185,11 @@ export default function InventoryScreen({ activeScreen = "inventory", onNavigate
 
         {/* Products List */}
         <div className="space-y-4">
-          {filteredProducts.map((product) => {
+          {isLoading ? (
+            <p className="text-center text-sm text-[#8A8080] py-4">Loading…</p>
+          ) : error ? (
+            <p className="text-center text-sm text-[#F42018] py-4">{error}</p>
+          ) : filteredProducts.map((product) => {
             const status = getStockStatus(product);
             const borderColor = getStockColor(status);
 
@@ -235,7 +207,10 @@ export default function InventoryScreen({ activeScreen = "inventory", onNavigate
                     <button className="text-[#1FABEA] p-1">
                       <Edit2 className="w-4 h-4" />
                     </button>
-                    <button className="text-[#D43500] p-1">
+                    <button
+                      onClick={() => handleDeleteProduct(product.id)}
+                      className="text-[#D43500] p-1"
+                    >
                       <Trash2 className="w-3 h-4" />
                     </button>
                   </div>

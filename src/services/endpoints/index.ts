@@ -12,12 +12,12 @@ export const SHOP_ENDPOINTS = {
 } as const;
 
 export const PRODUCT_ENDPOINTS = {
-  LIST: '/products',
-  GET: (id: string) => `/products/${id}`,
-  CREATE: '/products',
-  UPDATE: (id: string) => `/products/${id}`,
-  DELETE: (id: string) => `/products/${id}`,
-  SEARCH: '/products/search',
+  LIST: '/inventory/products',
+  GET: (id: string) => `/inventory/products/${id}`,
+  CREATE: '/inventory/products',
+  UPDATE: (id: string) => `/inventory/products/${id}`,
+  DELETE: (id: string) => `/inventory/products/${id}`,
+  SEARCH: '/inventory/products/search',
 } as const;
 
 export const BILL_ENDPOINTS = {
